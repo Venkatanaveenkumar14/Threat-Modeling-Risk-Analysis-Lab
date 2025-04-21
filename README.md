@@ -61,4 +61,4 @@ pip install -r requirements.txt
 wget https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json -P data/
 ```
 
-![Dashboard Screenshot](docs/assets/map-preview.png)
+![MAP Screenshot](docs/assets/map-preview.png)
