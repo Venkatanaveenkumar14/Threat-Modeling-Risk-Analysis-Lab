@@ -1,0 +1,20 @@
+/threat-modeling-lab
+├── data/                   # CVE datasets and MITRE mappings
+│   ├── cve_dataset.csv     # CVE data from NVD database(https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+│   ├── enterprise-attack.json     # MITRE ATTACK data
+│   ├── processed_cves.csv     # MITRE ATTACK data
+├── reports/                # Generated analysis outputs
+│   ├── generated files 
+├── scripts/
+│   ├── preprocessing.py    # Data cleaning
+│   ├── risk_analysis.py    # Statistical modeling
+│   └── attack_simulation.py # MITRE technique mapping
+│   ├── chi_square.py        # CHI Square model
+├── shiny-app/
+│   ├── app.py              # Dashboard core
+│   └── assets/ app.py      # CSS/JS resources
+├── test_dashboard.py       # Unit and integration tests
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── LICENSE
