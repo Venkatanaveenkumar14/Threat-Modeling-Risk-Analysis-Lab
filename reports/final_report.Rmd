@@ -1,0 +1,8 @@
+---
+title: "Real-World Threat Modeling Lab Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+cleaned_data <- read_csv("../data/cleaned_vulnerability_data.csv")
