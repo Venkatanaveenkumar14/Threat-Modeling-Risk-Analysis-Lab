@@ -59,3 +59,6 @@ pip install -r requirements.txt
 
 # Download MITRE ATT&CK data
 wget https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json -P data/
+```
+
+![Dashboard Screenshot](docs/assets/map-preview.png)
