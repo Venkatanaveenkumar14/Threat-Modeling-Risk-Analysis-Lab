@@ -1,0 +1,8 @@
+# Run pipeline
+python scripts/pipeline.py
+
+# Launch dashboard (dev mode)
+python shiny-app/app.py
+
+# Production deployment
+docker-compose up --build
