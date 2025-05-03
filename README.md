@@ -15,13 +15,13 @@ A quantitative threat modeling pipeline with attack path simulation and interact
 
 ## Features
 
-### 🔍 Core Analysis
+### Core Analysis
 - **Automated CVE Processing**: Ingest and preprocess NVD/CVE data
 - **Risk Scoring**: Logistic regression + chi-square analysis
 - **Attack Simulation**: MITRE ATT&CK technique mapping
 - **Temporal Analysis**: Vulnerability aging trends
 
-### 📊 Interactive Dashboard
+### Interactive Dashboard
 - **Multi-tab Interface**: Overview + detailed analysis
 - **Smart Filters**: CVSS score, severity, vendor, time period
 - **Advanced Visualizations**:
@@ -30,7 +30,7 @@ A quantitative threat modeling pipeline with attack path simulation and interact
   - Time-series severity trends
 - **Export Ready**: CSV/PDF report generation
 
-### 🛡️ Enterprise-Ready
+### Enterprise-Ready
 - Docker container support
 - CI/CD pipeline integration
 - Role-based access control (optional)
